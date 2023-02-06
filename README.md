@@ -31,5 +31,7 @@
   
 - Advice, Joinpoint, Pointcut...  
 - Joinpoint의 묶음 = Pointcut  
-- Transactional Annotation : 데이터 변경(insert, delete, update)에 사용  
+- Transactional Annotation  
+  - 데이터 변경(insert, delete, update)에 사용  
+  - 하나라도 실패 시, 자동 Rollback 됨
 - 
