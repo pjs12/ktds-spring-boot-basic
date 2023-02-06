@@ -62,4 +62,5 @@
   
 8. Interceptor / Filter  
 ![image](https://user-images.githubusercontent.com/31908647/216917341-c40511b6-4b35-45ee-8d92-ac818692e6fd.png)  
-- 
+- Filter는 스프링 영역이 아님  
+- 메소드, 어노테이션 확인  
