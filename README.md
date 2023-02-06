@@ -33,5 +33,19 @@
 - Joinpoint의 묶음 = Pointcut  
 - Transactional Annotation  
   - 데이터 변경(insert, delete, update)에 사용  
-  - 하나라도 실패 시, 자동 Rollback 됨
-- 
+  - 하나라도 실패 시, 자동 Rollback 됨  
+  - DB에 종속적이지 않음  
+  
+3. Controller @ResponseBody Annotation  
+- @ResponseBody 리턴 값이 데이터  
+- @RestController로 대체 가능 (Controller + ResponseBody)  
+  
+4. GET과 POST(Restful) 방식  
+- url  
+  - GET : test?n=10  
+  - POST : test/10  
+- @PathVariable Annotation  
+  - GetMapping("/test/{n}")  
+    public method(@PathVariable int n)  
+
+5. 
