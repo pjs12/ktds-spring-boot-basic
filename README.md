@@ -47,5 +47,18 @@
 - @PathVariable Annotation  
   - GetMapping("/test/{n}")  
     public method(@PathVariable int n)  
+  
+5. ORM  
+- 객체 중심으로 데이터 사용  
+- JPA도 마찬가지  
+  
+6. 특정 DB에 종속적인 쿼리 사용
+- Application Property 파일에 추가
+  - spring.jap.database-platform = org.hibernate.dialect.MariaDB103Dialect
 
-5. 
+7. 파일 업로드
+- form 태그 수정
+  - enctype="multipart/form-data" 추가해야 함
+
+8. Interceptor / Filter
+- ![image](https://user-images.githubusercontent.com/31908647/216917341-c40511b6-4b35-45ee-8d92-ac818692e6fd.png)
